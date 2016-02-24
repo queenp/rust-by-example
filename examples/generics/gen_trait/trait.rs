@@ -4,8 +4,8 @@ struct Null;
 
 // A trait generic over `T`.
 trait DoubleDrop<T> {
-    // It defines a method on the caller type which takes an
-    // additional single parameter and does nothing with it.
+    // Define a method on the caller type which takes an
+    // additional single parameter `T` and does nothing with it.
     fn double_drop(self, _: T);
 }
 
